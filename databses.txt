@@ -1,0 +1,15 @@
+collect.chat 
+chage the code -
+<script>(function(w, d) { w.CollectId = "65b14ec1dbbee2566c6b5e19"; var h = d.head || d.getElementsByTagName("head")[0]; var s = d.createElement("script"); s.setAttribute("type", "text/javascript"); s.async=true; s.setAttribute("src", "https://collectcdn.com/launcher.js"); h.appendChild(s); })(window, document);</script>
+
+
+next
+https://calendly.com/
+CHANGE URL
+
+https://calendly.com/ashishkidyt/15-minutes-introduction-meeting
+
+
+last conatct form 
+
+web3forms

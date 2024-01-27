@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&family=Ubuntu:wght@300&display=swap');
+
+.gfont {
+    font-family: 'Merriweather', serif;
+
+}
+
+body {
+    background-color: rgb(170, 170, 170);
+}
+
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 1000;
+    animation: floatAnimation 2s infinite ease-in-out;
+}
+
+.whatsapp-float a {
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50%;
+    padding: 15px;
+    font-size: 36px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+@keyframes floatAnimation {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+.navbar {
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+
+.nav-item {
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+
+}
+
+.nav-item:hover {
+    color: red !important;
+    border: 2px solid #5aa0d8;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.drop {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 0.5px solid rgb(160, 149, 149);
+    padding: 5px;
+    background-color: #0b5a9c;
+}
+
+.dropdown-toggle {
+    font-size: 20px;
+    font-weight: 500;
+    color: black
+}
+
+.aboutus {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: left;
+}
+
+.aboutus h1 {
+    text-align: center;
+}
+
+.redmore {
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutp {
+    font-size: 22px;
+}
+
+.redmore img {
+    margin-right: 10px;
+}
+
+.socialm {
+    padding: 10px;
+    background-color: rgb(189, 189, 229);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logos {
+    margin-right: 50px;
+    margin-left: 50px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.logos:hover {
+    color: red;
+    cursor: pointer;
+}
+.logos a{
+    text-decoration: none;
+    color: black;
+}
+.logos a:hover {
+    color: red;
+}
