@@ -123,10 +123,22 @@ body {
     color: red;
     cursor: pointer;
 }
-.logos a{
+
+.logos a {
     text-decoration: none;
     color: black;
 }
+
 .logos a:hover {
     color: red;
+}
+
+
+/* write a media quesry for toggel section */
+
+@media (max-width: 768px) {
+    .dropdown-toggle {
+        font-size: 12px;
+        width: 100%;
+    }
 }
