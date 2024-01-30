@@ -134,11 +134,14 @@ body {
 }
 
 
-/* write a media quesry for toggel section */
+
 
 @media (max-width: 768px) {
     .dropdown-toggle {
-        font-size: 12px;
-        width: 100%;
+       display: none;
+    }
+
+    .socialm{
+        display: none;
     }
 }
